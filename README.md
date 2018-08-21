@@ -1,5 +1,7 @@
 ## dBank Paper Wallet
 
+Credits: This is a complete re-design of @Xeroc's [Steem Paper Wallet](https://github.com/xeroc/steem-paperwallet).
+
 ![dBank Paper Wallet Screenshot 1](https://github.com/dBankCore/dbank-paperwallet/raw/master/screenshot-1.png)
 
 ![dBank Paper Wallet Screenshot 1](https://github.com/dBankCore/dbank-paperwallet/raw/master/screenshot-2.png)
