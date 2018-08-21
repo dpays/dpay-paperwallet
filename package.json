@@ -1,0 +1,27 @@
+{
+  "name": "tmp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel app.js --presets babel-preset-es2015 --out-dir lib",
+    "build:watch": "babel --watch app.js --presets babel-preset-es2015 --out-dir lib",
+    "prebrowserify": "npm run build",
+    "postbrowserify": "uglifyjs --compress --mangle --sequences --drop_console --output dist/bundle.min.js -- dist/bundle.js",
+    "browserify": "browserify lib/app.js -o dist/bundle.js -d"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "graphenejs-lib": "^0.4.10",
+    "jquery": "^3.0.0",
+    "qrcode": "^0.4.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-preset-es2015": "^6.9.0",
+    "browserify": "^13.1.0",
+    "uglify-js": "^2.7.0"
+  }
+}
