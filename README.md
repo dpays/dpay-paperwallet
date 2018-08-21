@@ -1,7 +1,8 @@
 ## dBank Paper Wallet
 
-![dBank Paper Wallet Screenshot 1](screenshot1.png)
-![dBank Paper Wallet Screenshot 1](screenshot2.png)
+![dBank Paper Wallet Screenshot 1](https://github.com/dBankCore/dbank-paperwallet/raw/master/screenshot-1.png)
+
+![dBank Paper Wallet Screenshot 1](https://github.com/dBankCore/dbank-paperwallet/raw/master/screenshot-2.png)
 
 ### Building From Source
 #### Ubuntu dependencies
