@@ -1,6 +1,9 @@
-## Generate a Paperwallet From a Password
+## dBank Paper Wallet
 
-### Installation
+![dBank Paper Wallet Screenshot 1](screenshot1.png)
+![dBank Paper Wallet Screenshot 1](screenshot2.png)
+
+### Building From Source
 #### Ubuntu dependencies
 ```
 sudo apt-get install libcairo2-dev libjpeg-dev libgif-dev
@@ -15,7 +18,7 @@ Once the dependencies are installed, do:
 
     open dist/index.html
 
-### Remark
+### Requirements
 
-* You need to provide the account name
+* You need to provide the dBank account name
 * Passwords must be at least 16 characters long
