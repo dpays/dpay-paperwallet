@@ -3,7 +3,7 @@ var {Login} = require("graphenejs-lib");
 var $result = $('.result').hide();
 var $pwdlengthwarning = $("#pwdlengthwarning").hide();
 var $pwdmismatchWarning = $("#pwdmismatchhwarning").hide();
-var prefix = "DWEB";
+var prefix = "DWB";
 
 import QRCode from 'qrcode';
 let qrcodedraw = new QRCode.QRCodeDraw();
